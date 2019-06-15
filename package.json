@@ -1,0 +1,31 @@
+{
+  "name": "kafka",
+  "version": "1.0.0",
+  "description": "kafka nodeJS client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node producer.js",
+    "dev": "nodemon producer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahul1719/kafka.git"
+  },
+  "keywords": [
+    "kafka",
+    "nodejs",
+    "client"
+  ],
+  "author": "v.rahul1719@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahul1719/kafka/issues"
+  },
+  "homepage": "https://github.com/rahul1719/kafka#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "kafka-node": "^4.1.3",
+    "node-rdkafka": "^2.7.0"
+  }
+}
