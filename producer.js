@@ -11,7 +11,7 @@ try {
   let payloads = [
     {
       topic: kafka_topic,
-      messages: config.kafka_topic
+      messages: config.kafka_message
     }
   ];
 
